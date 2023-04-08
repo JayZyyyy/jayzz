@@ -1,0 +1,26 @@
+{
+  "name": "jayzz",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "jayzz": "index.js"
+  },
+  "scripts": {
+    "test": "SET NODE_OPTIONS=--openssl-legacy-provider && echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jayzz",
+    "vue"
+  ],
+  "author": "jayzz",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {},
+  "dependencies": {
+    "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.8",
+    "open": "^8.4.2"
+  }
+}
